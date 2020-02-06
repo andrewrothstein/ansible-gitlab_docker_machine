@@ -1,0 +1,5 @@
+---
+dockermachine_target: docker-machine-{{ dockermachine_ver }}
+dockermachine_platform: '{{ ansible_system }}-{{ ansible_architecture }}'
+dockermachine_url: '{{ dockermachine_mirror }}/{{ dockermachine_ver }}/docker-machine{{ dockermachine_platform_suffix | default("") }}'
+dockermachine_checksum: '{{ dockermachine_checksums[dockermachine_ver][dockermachine_platform] }}'
