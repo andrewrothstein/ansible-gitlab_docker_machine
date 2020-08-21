@@ -32,4 +32,4 @@ dl_ver()
 }
 
 
-dl_ver ${1:-v0.16.2-gitlab.3}
+dl_ver ${1:-v0.16.2-gitlab.4}
