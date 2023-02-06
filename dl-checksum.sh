@@ -32,12 +32,4 @@ dl_ver()
     dl $ver Windows x86_64 .exe
 }
 
-dl_ver v0.16.2-gitlab.8
-dl_ver v0.16.2-gitlab.9
-dl_ver v0.16.2-gitlab.10
-dl_ver v0.16.2-gitlab.11
-dl_ver v0.16.2-gitlab.12
-dl_ver v0.16.2-gitlab.13
-dl_ver v0.16.2-gitlab.15
-dl_ver v0.16.2-gitlab.18
 dl_ver ${1:-v0.16.2-gitlab.19}
