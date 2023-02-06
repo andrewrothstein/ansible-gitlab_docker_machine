@@ -1,6 +1,6 @@
 andrewrothstein.gitlab_docker_machine
 ===========================
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-gitlab_docker_machine.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-gitlab_docker_machine)
+![Build Status](https://github.com/andrewrothstein/ansible-gitlab_docker_machine/actions/workflows/build.yml/badge.svg)
 
 Installs [gitlab_docker_machine](https://github.com/docker/machine)
 

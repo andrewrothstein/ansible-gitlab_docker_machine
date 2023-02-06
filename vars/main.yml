@@ -1,5 +1,11 @@
 ---
-dockermachine_target: docker-machine-{{ dockermachine_ver }}
-dockermachine_platform: '{{ ansible_system }}-{{ ansible_architecture }}'
-dockermachine_url: '{{ dockermachine_mirror }}/{{ dockermachine_ver }}/docker-machine{{ dockermachine_platform_suffix | default("") }}'
+dockermachine_os: '{{ ansible_system }}'
+dockermachine_arch: '{{ ansible_architecture }}'
+dockermachine_platform: '{{ dockermachine_os }}-{{ dockermachine_arch }}'
+
+dockermachine_suffix: '{{ dockermachine_platform }}{{ dockermachine_dotexe | default("") }}'
+
+dockermachine_url: '{{ dockermachine_mirror }}/{{ dockermachine_ver }}/docker-machine-{{ dockermachine_suffix }}'
 dockermachine_checksum: '{{ dockermachine_checksums[dockermachine_ver][dockermachine_platform] }}'
+dockermachine_exe: '{{ dockermachine_install_dir }}/docker-machine-{{ dockermachine_ver }}-{{ dockermachine_suffix }}'
+dockermachine_link: '{{ dockermachine_install_dir }}/docker-machine{{ dockermachine_dotext | default("") }}'
