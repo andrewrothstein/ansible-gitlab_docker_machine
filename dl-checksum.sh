@@ -32,4 +32,4 @@ dl_ver()
     dl $ver Windows x86_64 .exe
 }
 
-dl_ver ${1:-v0.16.2-gitlab.19}
+dl_ver ${1:-v0.16.2-gitlab.20}

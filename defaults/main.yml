@@ -1,5 +1,5 @@
 ---
-dockermachine_ver: v0.16.2-gitlab.19
+dockermachine_ver: v0.16.2-gitlab.20
 dockermachine_install_dir: /usr/local/bin
 dockermachine_mirror: https://gitlab-docker-machine-downloads.s3.amazonaws.com
 
@@ -67,3 +67,10 @@ dockermachine_checksums:
     Linux-x86_64: sha256:0c92b4acead3fbca5e27cae1df9f3b2b7ca0874faa7689d4c3fb3988cae11929
     # https://gitlab-docker-machine-downloads.s3.amazonaws.com/v0.16.2-gitlab.19/docker-machine-Windows-x86_64.exe
     Windows-x86_64: sha256:8896e40635bb8588ff10d916b43e572ccc0dde92dfdd77ddf6ef6d26005102b2
+  v0.16.2-gitlab.20:
+    # https://gitlab-docker-machine-downloads.s3.amazonaws.com/v0.16.2-gitlab.20/docker-machine-Darwin-x86_64
+    Darwin-x86_64: sha256:d6055efa9e43e8f6ddcb9b438d7f94d4999085d60924f76e3a91bcb762f47134
+    # https://gitlab-docker-machine-downloads.s3.amazonaws.com/v0.16.2-gitlab.20/docker-machine-Linux-x86_64
+    Linux-x86_64: sha256:4eb1bdf119496d35fd6f61be8235343919563ef16865aace390e6837aafee25a
+    # https://gitlab-docker-machine-downloads.s3.amazonaws.com/v0.16.2-gitlab.20/docker-machine-Windows-x86_64.exe
+    Windows-x86_64: sha256:189b492f9bdacb51fb2441ab6aa0546e2dd9216b4f3bff38d7bd10a4e5058b12
